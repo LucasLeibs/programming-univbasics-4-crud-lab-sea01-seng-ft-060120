@@ -3,11 +3,12 @@ def create_an_empty_array
 end
 
 def create_an_array
-   House = ["Lucas","Gabi","Eric","Michelle"]
+    ["Lucas","Gabi","Eric","Michelle"]
 end
 
 def add_element_to_end_of_array(array, element)
-  push.(array,element)
+ House = ["Lucas","Gabi","Eric","Michelle"]
+ House.push("new guy")
 end
 
 def add_element_to_start_of_array(array, element)
